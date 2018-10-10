@@ -8,6 +8,7 @@ Item {
     height: raw_layout.height
     property alias button_change: button_change
     property alias label_world: label_world
+    property alias image_grayegg: image_grayegg
 
     RowLayout {
         x: 8
@@ -17,7 +18,7 @@ Item {
 
             Label {
                 id: label_hello
-                text: qsTr("Hello")
+                text: qsTr("This is")
                 Layout.preferredHeight: 21
                 Layout.preferredWidth: 53
                 verticalAlignment: Text.AlignVCenter
@@ -26,7 +27,7 @@ Item {
 
             Label {
                 id: label_world
-                text: qsTr("World")
+                text: qsTr("@eniehack")
                 Layout.preferredHeight: 19
                 Layout.preferredWidth: 53
                 verticalAlignment: Text.AlignVCenter
@@ -43,7 +44,7 @@ Item {
             id: image_grayegg
             Layout.preferredHeight: 100
             Layout.preferredWidth: 100
-            source: "../egg_gray.png"
+            source: "egg_gray.png"
         }
     }
 }
