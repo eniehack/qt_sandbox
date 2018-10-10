@@ -1,0 +1,4 @@
+/.venv
+/HelloWorld.qmlproject.user
+/Pipfile.lock
+/*.qmlc
